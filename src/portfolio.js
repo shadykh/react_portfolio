@@ -344,7 +344,7 @@ const achievementSection = {
     {
       title: "Effective Decision Making: Dealing with Business Complexity",
       subtitle: "Utilizing the analytical skills in a business context, allowing to unravel complex situations requiring decisions.",
-      image: require("./assets/images/logo_Delft.jpg"),
+      image: require("./assets/images/tuDelft.png"),
       footerLink: [
         {
           name: "Certification",
