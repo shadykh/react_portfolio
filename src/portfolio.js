@@ -212,7 +212,7 @@ const bigProjects = {
   subtitle: "Some projects that I worked on with teams",
   projects: [
     {
-      image: require("./assets/images/JoCultureApp.PNG"),
+      image: require("./assets/images/JoCultureApp.png"),
       projectName: "JO CULTURE",
       projectDesc: "Built with JavaScript, HTML and CSS, deployed by Heroku.",
       footerLink: [
@@ -224,7 +224,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/swapoApp.PNG"),
+      image: require("./assets/images/swapoApp.png"),
       projectName: "Swapo",
       projectDesc: "Built with JavaScript, HTML, CSS, SASS, Node.js, socket.io, React, MongoDB and Express, deployed by Netlify and Heroku.",
       footerLink: [
@@ -236,7 +236,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/virtualStoreApp.PNG"),
+      image: require("./assets/images/virtualStoreApp.png"),
       projectName: "Virtual Store",
       projectDesc: "Built with JavaScript, HTML, CSS, SASS, Node.js, React, MongoDB and Express, deployed by Netlify and Heroku.",
       footerLink: [
@@ -259,7 +259,7 @@ const PersonalProjects = {
   subtitle: "Some projects that I built them",
   projects: [
     {
-      image: require("./assets/images/restyApp.PNG"),
+      image: require("./assets/images/restyApp.png"),
       projectName: "RESTy Application",
       projectDesc: "API testing tool that can be run in any browser, allowing a user to easily interact with APIs in a familiar interface.",
       footerLink: [
@@ -271,7 +271,7 @@ const PersonalProjects = {
       ]
     },
     {
-      image: require("./assets/images/bookApp.PNG"),
+      image: require("./assets/images/bookApp.png"),
       projectName: "Book App",
       projectDesc: "Add the functionality for the user to add a book or delete a book. Hit Google API and save it to database.",
       footerLink: [
@@ -283,7 +283,7 @@ const PersonalProjects = {
       ]
     },
     {
-      image: require("./assets/images/toDoApp.PNG"),
+      image: require("./assets/images/toDoApp.png"),
       projectName: "To-do App",
       projectDesc: "A Web Application for securely managing a To Do List.",
       footerLink: [
