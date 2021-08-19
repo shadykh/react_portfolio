@@ -209,10 +209,10 @@ const openSource = {
 
 const bigProjects = {
   title: "Projects",
-  subtitle: "Some projects that I wroked on",
+  subtitle: "Some projects that I worked on with teams",
   projects: [
     {
-      image: require("./assets/images/JOCulture.gif"),
+      image: require("./assets/images/JoCultureApp.PNG"),
       projectName: "JO CULTURE",
       projectDesc: "Built with JavaScript, HTML and CSS, deployed by Heroku.",
       footerLink: [
@@ -224,7 +224,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/Swapo.gif"),
+      image: require("./assets/images/swapoApp.PNG"),
       projectName: "Swapo",
       projectDesc: "Built with JavaScript, HTML, CSS, SASS, Node.js, socket.io, React, MongoDB and Express, deployed by Netlify and Heroku.",
       footerLink: [
@@ -236,7 +236,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/Virtual Store.gif"),
+      image: require("./assets/images/virtualStoreApp.PNG"),
       projectName: "Virtual Store",
       projectDesc: "Built with JavaScript, HTML, CSS, SASS, Node.js, React, MongoDB and Express, deployed by Netlify and Heroku.",
       footerLink: [
@@ -251,6 +251,52 @@ const bigProjects = {
   display: true // Set false to hide this section, defaults to true
 };
 
+
+// Some Personal Projects you have worked on
+
+const PersonalProjects = {
+  title: "Personal Projects",
+  subtitle: "Some projects that I built them",
+  projects: [
+    {
+      image: require("./assets/images/restyApp.PNG"),
+      projectName: "RESTy Application",
+      projectDesc: "API testing tool that can be run in any browser, allowing a user to easily interact with APIs in a familiar interface.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://restyapp001.netlify.app/"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/bookApp.PNG"),
+      projectName: "Book App",
+      projectDesc: "Add the functionality for the user to add a book or delete a book. Hit Google API and save it to database.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://shnobookapp.herokuapp.com/"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/toDoApp.PNG"),
+      projectName: "To-do App",
+      projectDesc: "A Web Application for securely managing a To Do List.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://todo401.netlify.app/"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+  ],
+  display: true // Set false to hide this section, defaults to true
+};
 // Achievement Section
 // Include certificates, talks etc
 
@@ -418,5 +464,6 @@ export {
   talkSection,
   podcastSection,
   contactInfo,
-  twitterDetails
+  twitterDetails,
+  PersonalProjects
 };
